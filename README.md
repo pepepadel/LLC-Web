@@ -13,6 +13,42 @@ infrastructure projects.
 - `assets/js/lp-script.js` — Form validation + mobile nav toggle
 - `assets/img/logo-bluesport.svg` — Primary logo (navy + gold, SVG)
 - `assets/img/favicon-bluesport.svg` — Favicon
+- `preview/*.html` — **Local-only** preview wrappers (Bootstrap via CDN,
+  full `<head>`) so you can view the site in a normal browser. Not for Odoo.
+
+## Local preview (Windows PowerShell)
+
+The files in `index.html` / `pages/*.html` are content fragments (no
+`<head>`), so opening them directly with a double-click won't load
+Bootstrap or the viewport meta tag. Use the `preview/` pages instead — they
+wrap the real content with a full `<head>` and Bootstrap from a CDN, and
+fetch the actual `index.html` / `pages/*.html` content live so the preview
+always matches production.
+
+Because `preview/*.html` uses `fetch()` to load the fragments, it must be
+served over `http://`, not opened as a `file://` path. From PowerShell,
+in the project root:
+
+```powershell
+# Requires Python (comes with most Windows installs, or install from python.org)
+python -m http.server 8000
+```
+
+Then open in your browser:
+
+```powershell
+start http://localhost:8000/preview/home.html
+start http://localhost:8000/preview/services.html
+start http://localhost:8000/preview/contact.html
+```
+
+Press `Ctrl+C` in PowerShell to stop the server when done.
+
+If you don't have Python, an equivalent with Node.js:
+
+```powershell
+npx http-server -p 8000
+```
 
 ## Odoo Website Builder integration
 
