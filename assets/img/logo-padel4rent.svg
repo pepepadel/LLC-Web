@@ -1,0 +1,33 @@
+<svg width="360" height="72" viewBox="0 0 360 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="p4rLogoTitle">
+  <title id="p4rLogoTitle">Padel4Rent Consulting</title>
+  <defs>
+    <linearGradient id="p4rGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF6A"/>
+      <stop offset="100%" stop-color="#9C7A3C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: paddle blade abstracted into a "P" monogram -->
+  <g transform="translate(4,6)">
+    <circle cx="28" cy="28" r="27" fill="#0A1F44"/>
+    <!-- Paddle blade: rounded trapezoid forming the bowl of the "P" -->
+    <path d="M18 14
+             C18 14 34 12 39 20
+             C43 26 41 34 34 37
+             C29 39.3 22 38 18 35
+             Z"
+          fill="none" stroke="#FFFFFF" stroke-width="3.1" stroke-linejoin="round"/>
+    <!-- Perforations, evoking a paddle face without literal illustration -->
+    <circle cx="27" cy="21.5" r="1.6" fill="#FFFFFF"/>
+    <circle cx="33" cy="23" r="1.6" fill="#FFFFFF"/>
+    <circle cx="27" cy="27" r="1.6" fill="#FFFFFF"/>
+    <circle cx="33.5" cy="29" r="1.6" fill="#FFFFFF"/>
+    <circle cx="28" cy="32.5" r="1.6" fill="#FFFFFF"/>
+    <!-- Handle / stem of the "P" -->
+    <path d="M18 14 L18 44" fill="none" stroke="url(#p4rGoldGrad)" stroke-width="3.1" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="76" y="34" font-family="'Georgia','Times New Roman',serif" font-size="23" letter-spacing="0.4" fill="#0A1F44" font-weight="700">PADEL4RENT</text>
+  <text x="76" y="54" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12.5" letter-spacing="3.2" fill="#9C7A3C">CONSULTING</text>
+</svg>
