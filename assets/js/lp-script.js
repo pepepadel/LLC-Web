@@ -1,4 +1,4 @@
-// Bluesport Consulting — shared landing page behavior
+// Padel4Rent Consulting — shared landing page behavior
 // Vanilla JS / jQuery-compatible, safe to embed in Odoo Website Builder snippets
 (function () {
   "use strict";
