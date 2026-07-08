@@ -346,7 +346,7 @@
   font-size: 0.8rem;
   color: rgba(255,255,255,0.5);
 }
-.lp-footer-logo{ height: 38px; margin-bottom: 18px; filter: brightness(0) invert(1); }
+.lp-footer-logo{ height: 38px; margin-bottom: 18px; }
 
 @media (max-width: 991px){
   .lp-hero{ padding: 90px 0 70px; }

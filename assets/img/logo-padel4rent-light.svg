@@ -1,0 +1,32 @@
+<svg width="360" height="72" viewBox="0 0 360 72" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="p4rLogoLightTitle">
+  <title id="p4rLogoLightTitle">Padel4Rent Consulting</title>
+  <defs>
+    <linearGradient id="p4rGoldGradLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF6A"/>
+      <stop offset="100%" stop-color="#9C7A3C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Icon: padel paddle silhouette in an ivory roundel (dark-background version) -->
+  <g transform="translate(4,4)">
+    <circle cx="32" cy="32" r="32" fill="#F7F6F2"/>
+    <g transform="translate(32,30) rotate(-28)">
+      <!-- Paddle blade -->
+      <rect x="-13" y="-24" width="26" height="30" rx="13" fill="#0A1F44"/>
+      <!-- Perforations -->
+      <circle cx="-5.5" cy="-16" r="1.7" fill="#F7F6F2"/>
+      <circle cx="5.5" cy="-16" r="1.7" fill="#F7F6F2"/>
+      <circle cx="-5.5" cy="-9" r="1.7" fill="#F7F6F2"/>
+      <circle cx="5.5" cy="-9" r="1.7" fill="#F7F6F2"/>
+      <circle cx="0" cy="-2" r="1.7" fill="#F7F6F2"/>
+      <!-- Neck -->
+      <rect x="-3.4" y="5" width="6.8" height="8" rx="2" fill="#0A1F44"/>
+      <!-- Handle -->
+      <rect x="-4.4" y="12" width="8.8" height="16" rx="3.2" fill="url(#p4rGoldGradLight)"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="80" y="34" font-family="'Georgia','Times New Roman',serif" font-size="23" letter-spacing="0.4" fill="#FFFFFF" font-weight="700">PADEL4RENT</text>
+  <text x="80" y="54" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12.5" letter-spacing="3.2" fill="#D4AF6A">CONSULTING</text>
+</svg>
