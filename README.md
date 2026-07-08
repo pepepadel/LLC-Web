@@ -1,18 +1,19 @@
-# Bluesport Consulting — Landing Page
+# Padel4Rent Consulting — Landing Page
 
-Landing page for **Bluesport Consulting LLC** (New Mexico LLC), a strategic
-advisory firm for high-ticket international sports transactions and
-infrastructure projects.
+Landing page for **Padel4Rent Consulting LLC** (New Mexico LLC), a strategic
+advisory firm specialized exclusively in high-ticket international padel
+mandates: club investment &amp; development, M&amp;A &amp; due diligence, and
+revenue/occupancy optimization for operating clubs.
 
 ## Structure
 
 - `index.html` — Home page
-- `pages/services.html` — Services detail (M&A + Infrastructure)
+- `pages/services.html` — Services detail (Club Development + M&A + Revenue Optimization)
 - `pages/contact.html` — Contact page with inquiry form
 - `assets/css/lp-style.css` — All custom styles (prefix `lp-`)
 - `assets/js/lp-script.js` — Form validation + mobile nav toggle
-- `assets/img/logo-bluesport.svg` — Primary logo (navy + gold, SVG)
-- `assets/img/favicon-bluesport.svg` — Favicon
+- `assets/img/logo-padel4rent.svg` — Primary logo (navy + gold, SVG)
+- `assets/img/favicon-padel4rent.svg` — Favicon
 - `preview/*.html` — **Local-only** preview wrappers (Bootstrap via CDN,
   full `<head>`) so you can view the site in a normal browser. Not for Odoo.
 

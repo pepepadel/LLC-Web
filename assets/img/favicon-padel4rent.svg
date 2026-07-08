@@ -1,0 +1,21 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="favGoldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF6A"/>
+      <stop offset="100%" stop-color="#9C7A3C"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#0A1F44"/>
+  <path d="M21 16
+           C21 16 39 14 44.5 23
+           C49 30.5 46.5 39.5 38.5 43.2
+           C32.5 45.9 24.5 44.5 20 41
+           Z"
+        fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linejoin="round"/>
+  <circle cx="30.5" cy="24.5" r="1.9" fill="#FFFFFF"/>
+  <circle cx="38" cy="26.5" r="1.9" fill="#FFFFFF"/>
+  <circle cx="30.5" cy="31.5" r="1.9" fill="#FFFFFF"/>
+  <circle cx="39" cy="33.5" r="1.9" fill="#FFFFFF"/>
+  <circle cx="31.5" cy="37.5" r="1.9" fill="#FFFFFF"/>
+  <path d="M21 16 L21 50" fill="none" stroke="url(#favGoldGrad)" stroke-width="3.6" stroke-linecap="round"/>
+</svg>
