@@ -5,17 +5,15 @@
       <stop offset="100%" stop-color="#9C7A3C"/>
     </linearGradient>
   </defs>
-  <circle cx="32" cy="32" r="30" fill="#0A1F44"/>
-  <path d="M21 16
-           C21 16 39 14 44.5 23
-           C49 30.5 46.5 39.5 38.5 43.2
-           C32.5 45.9 24.5 44.5 20 41
-           Z"
-        fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linejoin="round"/>
-  <circle cx="30.5" cy="24.5" r="1.9" fill="#FFFFFF"/>
-  <circle cx="38" cy="26.5" r="1.9" fill="#FFFFFF"/>
-  <circle cx="30.5" cy="31.5" r="1.9" fill="#FFFFFF"/>
-  <circle cx="39" cy="33.5" r="1.9" fill="#FFFFFF"/>
-  <circle cx="31.5" cy="37.5" r="1.9" fill="#FFFFFF"/>
-  <path d="M21 16 L21 50" fill="none" stroke="url(#favGoldGrad)" stroke-width="3.6" stroke-linecap="round"/>
+  <circle cx="32" cy="32" r="32" fill="#0A1F44"/>
+  <g transform="translate(32,30) rotate(-28)">
+    <rect x="-14" y="-25.5" width="28" height="32" rx="14" fill="#FFFFFF"/>
+    <circle cx="-6" cy="-17" r="1.9" fill="#0A1F44"/>
+    <circle cx="6" cy="-17" r="1.9" fill="#0A1F44"/>
+    <circle cx="-6" cy="-9.5" r="1.9" fill="#0A1F44"/>
+    <circle cx="6" cy="-9.5" r="1.9" fill="#0A1F44"/>
+    <circle cx="0" cy="-2" r="1.9" fill="#0A1F44"/>
+    <rect x="-3.7" y="5.5" width="7.4" height="8.5" rx="2.2" fill="#FFFFFF"/>
+    <rect x="-4.8" y="13" width="9.6" height="17" rx="3.5" fill="url(#favGoldGrad)"/>
+  </g>
 </svg>
